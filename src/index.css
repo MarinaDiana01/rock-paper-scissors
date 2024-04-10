@@ -1,0 +1,18 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+:root {
+  --green: #9DE89F;
+  --white: #FFFFFF;
+  --red: red;
+  --grey: #4c5a5a;
+  --black: #1d2424;
+}
+
+body {
+  background-color: var(--green);
+}

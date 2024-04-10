@@ -1,0 +1,51 @@
+.game-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.game-title {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: 	var(--black);
+}
+
+.game-winner-message {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: var(--red);
+}
+
+.game-player {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.game-option {
+  margin-bottom: 64px;
+  padding: 2px;
+  width: 120px;
+  border: solid 1px var(--grey);
+}
+
+.game-play-button {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px 80px;
+  background-color: var(--black);
+  color: 	var(--white);
+  border: 1px solid var(--grey);
+  cursor: pointer;
+  transition-property: background-color, color;
+  transition: 0.25s;
+  transition-timing-function: linear;
+}
+
+.game-play-button:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
